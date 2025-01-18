@@ -18,7 +18,8 @@ def scrape_website(url, classNames):
         domain = urlparse(url).netloc.replace('www.', '').split('.')[0]
         df.to_excel(f"CBT-CIP/{domain}.xlsx", index=False)
         print(f"Extracted data saved to {domain}.xlsx")
-
+        
+#urls={"url" : [className1, className2, ....] }
 urls = {
     "https://www.amazon.in/s?k=monitors&crid=1J8T4LARJ6NOE&sprefix=monitors%2Caps%2C285&ref=nb_sb_noss_1" : ["s-title-instructions-style", "a-price-whole"]
 
