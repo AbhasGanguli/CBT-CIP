@@ -68,19 +68,6 @@ For the URL `https://www.amazon.in`, the script extracts product titles and pric
 
 ---
 
-## Directory Structure
-```
-CBT-CIP/
-  |-- Receipt.pdf            # Output receipt file
-  |-- <domain>.xlsx          # Output Excel file with scraped data
-
-scripts/
-  |-- receipt_maker.py       # Script for generating receipts
-  |-- data_miner.py          # Script for data mining
-```
-
----
-
 ## Usage
 - Place the scripts in the `scripts/` directory.
 - Ensure the `CBT-CIP/` directory exists or create it.
